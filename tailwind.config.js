@@ -26,6 +26,9 @@ export default {
         gray: {
           footer: "#4B4757",
         },
+        purple: {
+          100: "#6437F5",
+        },
         shade: {
           100: "#D1ECFD",
         },

@@ -20,10 +20,10 @@ const Navbar = () => {
         {menuItems.map((item, index) => (
           <div
             key={index}
-            className={`relative text-white font-medium flex items-center space-x-3 cursor-pointer px-3 py-2 rounded-lg transition-all ${
+            className={`relative font-medium flex items-center space-x-3 cursor-pointer px-3 py-2 rounded-lg transition-all ${
               active === index
                 ? "bg-white text-primary-500"
-                : "hover:bg-primary-500"
+                : "text-white backdrop:hover:bg-primary-500"
             }`}
             onMouseEnter={() => setActive(index)}
             onMouseLeave={() => setActive(null)}
@@ -57,14 +57,14 @@ const Navbar = () => {
       </div>
 
       {openNav && (
-        <div className="lg:hidden flex flex-col space-y-6 bg-primary-500 p-4 h-screen transition-all fixed w-full left-0 top-20 bg-hero-pattern">
+        <div className="lg:hidden flex flex-col space-y-6 bg-primary-500 p-4 h-screen transition-all absolute z-10 w-full left-0 top-20 bg-hero-pattern">
           {menuItems.map((item, index) => (
             <div
               key={index}
-              className={`relative text-white font-medium flex items-center space-x-3 cursor-pointer px-3 py-2 rounded-lg transition-all ${
+              className={`relative font-medium flex items-center space-x-3 cursor-pointer px-3 py-2 rounded-lg transition-all ${
                 active === index
                   ? "bg-white text-primary-500"
-                  : "hover:bg-blue-500"
+                  : "text-white hover:bg-blue-500"
               }`}
               onMouseEnter={() => setActive(index)}
               onMouseLeave={() => setActive(null)}
