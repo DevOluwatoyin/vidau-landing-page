@@ -12,6 +12,7 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/images/hero-bg.svg')",
+        "testimonial-pattern": "url('/images/testimonial-bg.svg')",
       },
       colors: {
         primary: {

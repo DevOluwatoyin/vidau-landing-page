@@ -24,7 +24,7 @@ const Footer = () => {
 
             <div className="flex space-x-3 py-2">
               {socialLinks.map((link) => (
-                <img src={link.icon} alt={link.name} />
+                <img src={link.icon} alt={link.name} key={link.name} />
               ))}
             </div>
 

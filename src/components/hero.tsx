@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section className="px-4 text-center">
+    <section className="px-4 text-center bg-hero-pattern">
       <div className="space-y-4 text-center py-8">
         <h1 className="font-medium text-[2rem] text-white lg:text-[6.5rem] max-w-5xl mx-auto lg:leading-[8.5rem]">
           AI Virtual Avatars Generator for Professional Videos
