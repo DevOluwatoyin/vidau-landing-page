@@ -22,6 +22,7 @@ export default {
           300: "#3459FF",
           400: "#6157FF",
           500: "#006DFF",
+          500: "#5B43FF",
         },
         gray: {
           footer: "#4B4757",

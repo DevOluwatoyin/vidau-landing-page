@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import Testimonials from "./components/testimonies";
 import FrequentlyAskedQuestions from "./components/faq";
 import AboutVidAu from "./components/about";
+import HowTo from "./components/howto";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <HeroSection />
 
       <AboutVidAu />
+
+      <HowTo />
 
       <Testimonials />
 
