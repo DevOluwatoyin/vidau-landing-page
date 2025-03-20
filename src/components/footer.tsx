@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-white py-12 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 w-full">
-          <div className="space-y-4 col-span-2">
+          <div className="space-y-4 lg:col-span-2">
             <img src="/images/blue-logo.svg" alt="blue logo" />
 
             <p className="text-gray-footer lg:text-sm lg:max-w-xs">
@@ -30,7 +30,7 @@ const Footer = () => {
 
             <div className="relative inline-block text-left">
               <select
-                className="bg-[#6d8dff] border border-gray-300 rounded-md py-1 pl-3 pr-8 text-sm"
+                className="bg-[#6d8dff12] border border-gray-300 rounded-md py-1 pl-3 pr-8 text-sm"
                 value={language}
                 onChange={(e) => setLanguage(e.target.value)}
               >

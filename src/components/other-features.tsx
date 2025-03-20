@@ -52,8 +52,8 @@ const OtherFeatures = () => {
       <div className="slider-container overflow-hidden py-5">
         <Slider {...settings}>
           {allFeatures.map((feature, id) => (
-            <div className="p-4 overflow-hidden rounded-xl">
-              <div className="rounded-xl overflow-hidden" key={id}>
+            <div className="p-4 overflow-hidden rounded-xl" key={id}>
+              <div className="rounded-xl overflow-hidden">
                 <div className="overflow-hidden max-h-[11.75rem]">
                   <img
                     src={feature.img}
