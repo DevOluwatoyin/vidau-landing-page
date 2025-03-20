@@ -29,7 +29,7 @@ const TestimonialCard = ({
       <div className="text-sm font-medium text-primary-500 mb-3">{title}</div>
       <p
         className={`text-center text-sm mb-4 ${
-          style && "opacity-40 lg-opacity-100"
+          style && "opacity-40 lg:opacity-100"
         }`}
       >
         {description}
@@ -37,7 +37,7 @@ const TestimonialCard = ({
 
       <div
         className={`flex items-center mt-auto ${
-          style && "opacity-30 lg-opacity-100"
+          style && "opacity-30 lg:opacity-100"
         }`}
       >
         <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-300 mr-3">
@@ -52,7 +52,7 @@ const TestimonialCard = ({
       <img
         src="/images/rating.svg"
         alt="rating"
-        className={`${style && "opacity-20 lg-opacity-100"}`}
+        className={`${style && "opacity-20 lg:opacity-100"}`}
       />
     </div>
   );

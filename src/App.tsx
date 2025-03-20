@@ -5,6 +5,7 @@ import Testimonials from "./components/testimonies";
 import FrequentlyAskedQuestions from "./components/faq";
 import AboutVidAu from "./components/about";
 import HowTo from "./components/howto";
+import OtherFeatures from "./components/other-features";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <HowTo />
 
       <Testimonials />
+
+      <OtherFeatures />
 
       <FrequentlyAskedQuestions />
 
