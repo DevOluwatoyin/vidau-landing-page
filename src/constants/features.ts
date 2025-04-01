@@ -10,11 +10,11 @@ export const allFeatures = [
   {
     name: "YouTube to MP3",
     img: "/images/vid_1.svg",
-},
-{
-  name: "Subtitles Remover",
-  img: "/images/vid_7.svg",
-},
+  },
+  // {
+  //   name: "Subtitles Remover",
+  //   img: "/images/vid_7.svg",
+  // },
   {
     name: "Facebook Video Downloader",
     img: "/images/vid_2.svg",

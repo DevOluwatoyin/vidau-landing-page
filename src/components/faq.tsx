@@ -31,12 +31,12 @@ const AccordionChild = ({
 
 const FrequentlyAskedQuestions = () => {
   return (
-    <div className="bg-[#F8F8F9] py-10 min-h-screen lg:bg-testimonial-pattern lg:py-40">
+    <div className="bg-[#F8F8F9] py-10 min-h-screen bg-no-repeat bg-cover lg:bg-testimonial-pattern lg:py-40">
       <h2 className="font-medium text-center mb-5 text-[2rem] lg:text-[4.795rem]">
         Frequently Asked Questions
       </h2>
 
-      <div className="max-w-4xl mx-auto p-5">
+      <div className="max-w-4xl mx-auto p-5 xl:max-w-7xl">
         {faqData.map((item, index) => (
           <AccordionChild
             answer={item.answer}

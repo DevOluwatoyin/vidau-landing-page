@@ -37,7 +37,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="px-4 text-center bg-hero-pattern">
+    <section className="px-4 text-center bg-hero-pattern bg-no-repeat bg-cover">
       <div className="space-y-4 text-center py-8">
         <h1 className="font-medium text-[2rem] text-white lg:text-[6.5rem] max-w-5xl mx-auto lg:leading-[8.5rem]">
           AI Virtual Avatars Generator for Professional Videos
@@ -58,14 +58,14 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="slider-container overflow-hidden py-10 lg:pb-20">
+      <div className="slider-container overflow-hidden py-10 lg:pb-20 xl:max-w-screen-2xl xl:mx-auto">
         <Slider {...settings}>
           {agents.map((agent, id) => (
             <div
-              className="px-4 overflow-hidden rounded-xl relative group cursor-pointer group"
+              className="px-4 overflow-hidden rounded-xl relative group cursor-pointer group !flex items-center justify-center"
               key={id}
             >
-              <img src={agent.img} alt={agent.name} className="w-full" />
+              <img src={agent.img} alt={agent.name} className="w-fit" />
               <div className="absolute hidden group-hover:flex flex-col w-full h-full top-0 items-center justify-between px-10 py-6 transition-all">
                 <img
                   src="/images/volume.svg"

@@ -25,7 +25,7 @@ const OtherFeatures = () => {
           {allFeatures.map((feature, id) => (
             <div className="p-4 overflow-hidden rounded-xl" key={id}>
               <div className="rounded-xl overflow-hidden">
-                <div className="overflow-hidden max-h-[10.75rem]">
+                <div>
                   <img
                     src={feature.img}
                     alt={feature.name}
@@ -46,7 +46,7 @@ const OtherFeatures = () => {
           {allFeatures.map((feature, id) => (
             <div className="p-4 overflow-hidden rounded-xl" key={id}>
               <div className="rounded-xl overflow-hidden">
-                <div className="overflow-hidden max-h-[10.75rem]">
+                <div>
                   <img
                     src={feature.img}
                     alt={feature.name}
